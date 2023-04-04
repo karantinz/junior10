@@ -1,6 +1,10 @@
-﻿for (int i = 5; i <= 96; i += 7)
+﻿int startNumber = 5;
+int endNumber = 96;
+int increment = 7;
+
+for (int i = startNumber; i <= endNumber; i += increment)
 {
-    Console.WriteLine(i);
+    Console.Write(i + " ");
 }
 
 // следующее число отличется от предыдущего на 7, цикл for позволяет задать начальное значение и изменение
